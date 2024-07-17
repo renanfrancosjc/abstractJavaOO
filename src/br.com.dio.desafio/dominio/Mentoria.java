@@ -10,7 +10,7 @@ public class Mentoria extends Conteudo {
 
     @Override
     public double calcularXp(){
-        return 0
+        return Xp_padrao + 20d;
     }
 
     public String getCargaHoraria(){
